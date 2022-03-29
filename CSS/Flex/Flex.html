@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        nav {
+            display: flex;
+            background-color: rgb(84,84,252);
+            justify-content: space-between;
+        }
+        h1 {
+            display: flex;
+            padding: 0;
+            margin: 0 10%;
+            align-items: center;
+            justify-content:center;
+        }
+        ul {
+            display: flex;
+            padding: 0;
+            margin: 0 10%;
+            list-style: none;
+            gap: 20px;
+            align-items: center;
+        }
+        ul li{
+            display: flex;
+            justify-content: flex-end;
+            height: 100%;
+            padding: 20px 0px;
+            align-items: center;
+        }
+
+        li:hover{
+            background-color: rgb(139,139,139);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Welcome</h1>
+        <ul>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+        </ul>
+    </nav>
+</body>
+</html>

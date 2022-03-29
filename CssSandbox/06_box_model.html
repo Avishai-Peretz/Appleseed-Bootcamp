@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model / Margin & Padding</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box{
+            background: #ccc;
+            border: 3px #aaa solid;
+            width: 500px;
+
+            /* Padding on all sides */
+            padding: 20px;
+            
+            /* Padding par side */
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+
+            /* Padding shortheand = top, right, bottom, left */
+            padding: 10px 20px 10px 20px;
+
+            /* Padding shortheand = top/bottom right/left */
+            padding: 10px 20px;
+            
+            /* Margin on all sides */
+            margin: 20px;
+
+            /* Margin par side */
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+
+            /* Margin shortheand = top, right, bottom, left */
+            margin: 10px 20px 10px 20px;
+
+            /* Margin shortheand = top/bottom right/left */
+            margin: 10px 20px;            
+
+        }
+        .box h3 {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eos illo ipsum libero eius laborum, repellendus, optio cupiditate voluptatum officiis consequatur tempore, molestiae praesentium rerum aliquam fugit vitae numquam sunt?
+        </p>
+    </div>
+    <div class="box">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eos illo ipsum libero eius laborum, repellendus, optio cupiditate voluptatum officiis consequatur tempore, molestiae praesentium rerum aliquam fugit vitae numquam sunt?
+        </p>
+    </div>
+</body>
+</html>

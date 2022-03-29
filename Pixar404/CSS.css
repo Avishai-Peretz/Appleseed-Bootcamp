@@ -1,0 +1,201 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin: 0;
+    padding: 1.8% 6%; 
+    margin: auto;
+    padding: auto;
+}
+.header .pixar-logo {
+    display: inline-block;
+    padding: 0 1.7%;
+    width: 10%;
+    float: left;
+}
+
+.header .t-links {
+    display: inline-block ;
+    float: right;
+    padding: 0.8% 4%;
+}
+.header .t-links li {
+    display: inline;
+}
+
+.header .t-links li a {
+    color: #555 ;
+    font-family:"Brandon Grotesque Bold";
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 19px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-weight:: 1000 ;
+}
+
+#about {
+    margin-right: 0 !important;
+}
+
+.header .t-links a:hover {
+    color: #ccc;
+    cursor: pointer;
+}
+.clr {
+    clear: both;
+}
+
+body .main{
+    display: block;
+    margin: 0;
+    padding: 4% 7%;
+    height: 100%;
+}
+
+body .main .sad-pic-wrap {
+    display: inline-block;
+    width: 40%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body .main .sad-pic-wrap .sad-pic {
+    display: block;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1470175715831-NUJOMI6VW13ZNT1MI0VB/image-asset.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto 2%;
+    margin-top: 35px;
+    max-width: 80%;
+}
+
+.blah {
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    margin-right: 6% ;
+    margin-top: 11%;
+    padding: 2%;
+    float: right;
+}
+section h1{
+    text-align: center;
+    font-family: 'roboto', 'PT Sans';
+    color: #111;
+    font-size: 50px;
+    letter-spacing: 15px ;
+    margin: 0;
+    font-weight: 1000;
+}
+section h2 {
+    font-family: 'PT Sans', sans-serif;
+    color: #777;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+}
+section h3 {
+    font-family: 'PT Sans', sans-serif;
+    color: #777;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.social { 
+    max-width: 180px;
+    margin: 1.5% auto;
+}
+
+.social1 {
+    color: #333;
+    margin:5%;
+    text-decoration: none;
+}
+.social:hover{
+
+}
+
+.social1:hover{
+    color: #ccc;
+}
+
+footer{
+    margin: auto;
+    margin-top: 3.5%;
+    width: 60%;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 4px ;
+}
+
+.b-links a {
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 0;
+    color: #777;
+    font-size: 14px;
+    font-weight: 50;
+    letter-spacing: 6px ;
+    text-decoration: underline ;
+    text-underline-offset: 5px;
+}                                                                 
+
+.b-links a:hover {
+    color: rgb(167, 167, 167) ;
+    cursor: pointer;
+}
+
+@media all and (max-width: 1026px) {
+    body .main .sad-pic-wrap {
+        position: fixed;
+        display: inline-block;
+        width: 100%;
+    }
+
+    body .main .sad-pic-wrap .sad-pic {
+        display: block;
+        background-image: url(https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1470175715831-NUJOMI6VW13ZNT1MI0VB/image-asset.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto;
+        margin-top: 35px;
+        max-width: 100%;
+        float: none;
+    }
+    .header .t-links li {
+        display: block;
+    }
+
+    .blah {
+        display: inline-block;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        margin-right: 0%;
+        margin-top: 11%;
+        padding: 2%;
+        float: none;
+    }
+    .social { 
+        max-width: 180px;
+        margin: 1.5% auto;
+    }
+    
+    .social1 {
+        color: #333;
+        margin:5%;
+        text-decoration: none;
+    }
+}
+
+
+
+

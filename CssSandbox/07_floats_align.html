@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float & Aling </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.4;
+        }
+        .container {
+            max-width: 960px ;
+            margin: 30px auto;
+        }
+
+        .clr {
+            clear: both;
+        }
+        .box {
+            background: #aaa;
+            border: 1px solid black;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        .box p {
+            /* Text align */
+            text-align: left;
+            text-align: center;
+            text-align: justify;
+        }
+
+        #box-2 {
+            float: left;
+            width: 68%;
+        }
+
+        #box-3 {
+            float: right;
+            width: 30%;
+        }
+    </style>
+<body>
+    <div class="container">
+        <div id="box-1" class="box">
+            <h3 >Box One</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores sed corporis aliquid quo id beatae laudantium dignissimos illum exercitationem quod delectus harum sunt commodi possimus, repellendus animi quaerat vel!
+            </p>
+        </div>
+        <div id="box-2" class="box">
+            <h3>Box Two</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores sed corporis aliquid quo id beatae laudantium dignissimos illum exercitationem quod delectus harum sunt commodi possimus, repellendus animi quaerat vel!
+            </p>
+        </div>
+        <div id="box-3" class="box">
+            <h3>Box Three</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores sed corporis aliquid quo id beatae laudantium dignissimos illum exercitationem quod delectus harum sunt commodi possimus, repellendus animi quaerat vel!
+            </p>
+        </div>  
+
+        <div class="clr"></div>
+
+        <div id="box-4" class="box">
+            <h3>Box Three</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores sed corporis aliquid quo id beatae laudantium dignissimos illum exercitationem quod delectus harum sunt commodi possimus, repellendus animi quaerat vel!
+            </p>
+        </div>  
+    </div>
+
+  
+</body>
+</html>
