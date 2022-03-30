@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }             
+
+html, body {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+
+}
+
+body header {
+    display: flex;
+    background-color: rgb(143, 131, 245);
+}
+
+body header ul {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+body header ul li {
+    padding: 15%;
+}
+
+body header ul li:hover{
+    background-color: blueviolet;
+}
+
+body header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#discription{
+    height: 70vh;
+}
+
+#discription .home-page{
+    font-size: 40px;
+    margin: 5% 40%;
+    padding: 80px 0;
+    text-align: center;
+    border: purple dotted 10px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.container {
+    font-size: 18px;
+    height: 40vh;
+}
+
+.container .img {
+    display:block;
+    width: 10%;
+    height: 70%;
+    margin-left: 30%;
+    margin-right: 0; 
+    margin: ;
+    float: left;
+    background: url(./img/pexels-brady-knoll-3369569.jpg) center center/cover;
+}
+.container p {
+    display:block;
+    width: 20%;
+    margin-left: 0;
+    margin-right: 35%;
+    float: right;
+}
+
+#gallery {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    width: 100%;
+    margin: 2% 2%;
+}
+
+#gallery .gallery-container{
+    display: block;
+    height: 20vw;
+    width: 30vh;
+    float: left;
+    text-align: center;
+    margin: 2% 5%;
+    
+}
+
+
+#gallery .gallery-container p {
+    display: block;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+#gallery .gallery-container .img-container-1 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(./img/pexels-brady-knoll-3369569.jpg) center center/cover no-repeat;
+    float: left;
+}
+
+#gallery .gallery-container .img-container-2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding:1%;
+    background: url(./img/pexels-yaroslav-shuraev-5084674.jpg) center center/cover no-repeat;
+    float: left;
+}
+
+#gallery .gallery-container .img-container-3 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding:1%;
+    
+    background: url(./img/pexels-valdemaras-d-2273642.jpg) center center/cover no-repeat;
+    float: left;
+}
+
+#gallery .gallery-container .img-container-4 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding:1%;    
+    background: url(./img/pexels-tomáš-malík-1998439.jpg) center center/cover no-repeat;
+    float: left;
+}
+
+#gallery .gallery-container .img-container-5 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding:1%;
+    background: url(./img/pexels-cottonbro-4058794.jpg) center center/cover no-repeat;
+    float: left;
+}
+
+#gallery .gallery-container .img-container-6 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding:1%;    
+    background: url(./img/pexels-elle-hughes-1549196.jpg) center center/cover no-repeat;
+    float: left;
+}
+
+#gallery .gallery-container .img-container-7 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding:1%;
+    background: url(./img/pexels-brady-knoll-3369569.jpg) center center/cover no-repeat;
+    float: left;
+}
+
+#gallery .gallery-container .img-container-8 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding:1%;    
+    background: url(./img/pexels-negative-space-160107.jpg) center center/cover no-repeat;
+    float: left;
+}
+
+#gallery .gallery-container .img-container-9 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding:1%;  
+    background: url(./img/pexels-pixabay-270360.jpg) center center/cover;
+    float: left;
+}
+
+.clr {
+    clear: both;
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+}
