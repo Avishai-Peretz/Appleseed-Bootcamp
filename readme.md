@@ -3,7 +3,7 @@ This repository includes all the workshops and content that i have done in the A
 The repository pressents my prosecs so far and gets updated freaqunetly.
 
 ---------------------------------------------------------------------------------------------------
-Visit my page : https://The92Racer.netlify.app
+Visit my page : https://avishai-peretz.netlify.app/
 ---------------------------------------------------------------------------------------------------
 
 it can be used for personal use ONLY.
